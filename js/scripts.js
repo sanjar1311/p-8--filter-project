@@ -16,3 +16,14 @@ var createElement = function (tagName, className, text) {
 
   return element;
 };
+
+let elNavOpenBtn = $_('.nav-open-btn');
+let elNav = $_('.nav');
+
+
+function openNav () {
+  elNav.classList.toggle('nav--open');
+}
+
+
+elNavOpenBtn.addEventListener('click', openNav);
