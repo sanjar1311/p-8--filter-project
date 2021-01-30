@@ -1,0 +1,93 @@
+/* kaushan-script-regular - latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/kaushan-script-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/kaushan-script-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+  font-family: 'Kaushan Script', cursive;
+}
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+.logo__img {
+  display: block;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav__link {
+  text-decoration: none !important;
+  font-size: 24px;
+  color: #ef7998;
+  margin-right: 15px;
+  transition: color .6s ease;
+}
+.nav__link:hover {
+  color: #000;
+  transition: color .6s ease;
+}
+.site-header-right-side {
+  display: flex;
+  align-items: center;
+}
+.card-info {
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 18px;
+}
+.site-header-right-side__card-info-text {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.site-header-right-side__card-info-text::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url('../img/shopping-cart.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.phone-number {
+  text-decoration: none !important;
+  font-size: 20px;
+  color: #000;
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+}
+.phone-number:hover {
+  color: #000 !important;
+  opacity: .8;
+}
+.phone-number:active {
+  opacity: .5;
+}
+.phone-number::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../img/phone.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 10px;
+}
