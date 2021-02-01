@@ -28,7 +28,6 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  /* margin: 20px 0; */
 }
 .nav__link {
   text-decoration: none !important;
@@ -183,6 +182,69 @@ body {
 .about-right-img:hover {
   box-shadow: -30px -30px 0 7px rgba(235, 206, 46, .5);
   transition: box-shadow .5s ease;
+}
+
+
+/* =========   Our Story   ========== */
+
+.our-story {
+  background-color: rgba(85, 79, 79, 0.2);
+  padding: 60px 30px;
+}
+.our-story--title {
+  text-align: center;
+  font-size: 40px;
+}
+.our-story--title-span {
+  font-size: 48px;
+  color: #ef7998;
+  font-weight: bolder;
+}
+.sort-buttons {
+  width: 100%;
+  max-width: 100%;
+  margin: 15px auto;
+}
+.btn-outline-secondary {
+  border: none;
+  background-color: #fff;
+  border-radius: 6px 0 0 6px;
+  padding: 8px 8px 8px 16px;
+  outline: none !important;
+}
+.btn-outline-secondary:hover {
+  outline: none !important;
+}
+.btn-outline-secondary:active {
+  background-color: #fff !important;
+}
+.serch-input {
+  max-width: 50% !important;
+  outline: none;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  padding-left: 8px;
+}
+.sort-btn {
+  margin-right: 15px;
+}
+.sort-btn:last-child {
+  margin-right: 0;
+}
+.cakes-output {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.output-item {
+  max-width: 320px;
+  margin: 35px 15px 0 0;
+}
+.cake-title {
+  font-size: 20px;
+}
+.cake-cost {
+  font-size: 22px;
 }
 
 @media only screen and (max-width: 1100px) {
